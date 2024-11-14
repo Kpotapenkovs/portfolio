@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #228B22; /* Zaļa krāsa, kas atgādina kāršu galdu */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.menu-container, .game-container {
+    text-align: center;
+    background-color: #006400; /* Tumšāka zaļā krāsa konteinerim */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    margin-bottom: 20px;
+}
+
+#computer, #player {
+    margin-bottom: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cards img {
+    width: 80px;
+    height: auto;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.controls button, .menu-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #32CD32; /* Spilgtāka zaļā krāsa pogām */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover, .menu-container button:hover {
+    background-color: #3CB371; /* Tumšāka zaļā krāsa uz hover */
+}
+
+#p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.menu-container h1 {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Spēle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Blackjack Spēle</h1>
+        <div class="scores">
+            <div id="computer">
+                <h2>computer: <span id="b"></span></h2>
+                <div id="computer-cards" class="cards"></div>
+            </div>
+            <div id="player">
+                <h2>player: <span id="a"></span></h2>
+                <div id="player-cards" class="cards"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button onclick="sakt()">play</button>
+            <button onclick="pieskirt()">hit</button>
+            <button onclick="apstaties()">stand</button>
+            <button onclick="refresh()">restart</button>
+        </div>
+        <p id="p"></p>
+        <p id="score-display">Score: <span id="score"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
